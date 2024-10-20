@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barath M - Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Barath M</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <center>
+                <img src="data:image/jpeg;base64,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" alt="Barath M">
+            </center>
+            <p>
+                Hello! I’m Barath M, a pre-final year B.Tech student specializing in Information Technology. 
+                I have a strong passion for technology and a keen interest in programming, web development, 
+                and software tools. My academic journey has equipped me with a solid foundation in various 
+                IT domains, and I am always eager to learn and explore new technologies.
+            </p>
+        </section>
+        
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div id="project-list">
+                <!-- Dynamic project entries will be inserted here -->
+                {% for project in projects %}
+                <div class="project">
+                    <h3>{{ project.title }}</h3>
+                    <p>{{ project.description }}</p>
+                    <a href="{{ project.live_demo }}" target="_blank">Live Demo</a>
+                    <a href="{{ project.github }}" target="_blank">GitHub Repository</a>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <div id="blog-list">
+                <!-- Dynamic blog entries will be inserted here -->
+                {% for post in blog_posts %}
+                <div class="blog-post">
+                    <h3>{{ post.title }}</h3>
+                    <p>{{ post.content }}</p>
+                    <p><em>Posted on: {{ post.date }}</em></p>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Thank you for visiting my portfolio. If you would like to get in touch, you can reach me at:</p>
+            <ul>
+                <li>Email: <a href="mailto:mbarathexample@email.com">mbarathexample@email.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/barathm" target="_blank">Barath M's LinkedIn Profile</a></li>
+                <li>GitHub: <a href="https://github.com/Mbarathm345672005" target="_blank">Barath M's GitHub Profile</a></li>
+            </ul>
+        </section>
+        <br/>
+
+    </main>
+    <br/><br/><br/>
+    <footer>
+        <p>&copy; 2024 Barath M. All rights reserved.</p>
+    </footer>
+    <script>
+document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll("section");
+    
+    // Add animation when sections come into view
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fade-in');
+                observer.unobserve(entry.target); // Stop observing after animation
+            }
+        });
+    });
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});
+
+// CSS for fade-in effect
+const style = document.createElement('style');
+style.innerHTML = `
+    section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    }
+    section.fade-in {
+        opacity: 1;
+        transform: translateY(0);
+    }
+`;
+document.head.appendChild(style);
+    </script>
+    </body>
+</html>
