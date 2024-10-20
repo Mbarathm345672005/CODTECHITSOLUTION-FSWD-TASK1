@@ -1,0 +1,245 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+img {
+    max-width: 100%;
+    border-radius: 20%;
+    height: 100px;
+    width:100px;
+    }
+    
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #ff5722;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    transition: transform 0.3s;
+}
+
+header h1:hover {
+    transform: scale(1.1);
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+/* Main Section */
+main {
+    padding: 2rem;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ff5722; /* Consistent heading color */
+}
+
+/* Project Section */
+/* Project Section */
+#projects {
+    background-color: #e8f5e9;
+    border-left: 5px solid #4caf50;
+}
+
+#projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust spacing between items */
+}
+
+.project {
+    flex: 1 1 calc(50% - 10px); /* Each project takes 50% of the container width minus some margin */
+    margin-bottom: 20px; /* Space below each project */
+    padding: 20px; /* Internal padding for project cards */
+    background-color: #fafafa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #ddd; /* Light border around projects */
+    transition: background-color 0.3s ease, transform 0.3s; /* Smooth hover effect */
+}
+
+.project:hover {
+    background-color: #f5f5f5; /* Change background on hover */
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.project h3 {
+    font-size: 20px; /* Title size */
+    margin-top: 0; /* No top margin */
+    margin-bottom: 10px; /* Space below title */
+    color: #ff5722; /* Title color */
+}
+
+.project p {
+    font-size: 16px; /* Paragraph size */
+}
+
+.project a {
+    display: block; /* Block display for links */
+    margin-top: 10px; /* Space above link */
+    color: #3498db; /* Link color */
+    text-decoration: none; /* No underline for links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.project a:hover {
+    color: #ff5722; /* Change link color on hover */
+}
+/* Skills Section */
+#skills {
+    background-color: #e3f2fd;
+    border-left: 5px solid #2196f3;
+    padding: 20px;
+}
+
+.skill {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.skill:hover {
+    background-color: #ff8a65;
+}
+
+/* Contact Form Styles */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e8f5e9;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff; /* Changed for better readability */
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #f44336;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    border-top: 5px solid #ff5722;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Contact Info Styles */
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info a {
+    display: block;
+    color: #3498db;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #ff5722;
+}
+
+/* Additional Section Styles */
+#about {
+    background-color: #ffe9ea;
+    border-left: 5px solid #ff5722;
+}
+
+#contact h2 {
+    color: #ff5722;
+}
+
+#contact {
+    border-left: 5px solid rgb(43, 128, 238);
+    background-color: #96c8f1;
+}
+
+#blog h2 {
+    color: #ff5722;
+}
+
+#blog {
+    border-left: 5px solid rgb(238, 43, 43);
+    background-color: #fdbeff;
+}
